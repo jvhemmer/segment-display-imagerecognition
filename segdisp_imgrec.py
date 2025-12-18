@@ -16,7 +16,7 @@
 #   MAX_DIFF:           maximum absolute difference between consecutive readings, useful for ignoring
 #                           read errors if the display doesn't instanly change. Set to a large number
 #                           to disable this behavior (e.g., 1e99).
-#   REPEAT_IF_DIFF:     see `MAX_DIFF`. if the difference between 2 consecutive is greater than 
+#   REPEAT_IF_DIFF:     see `MAX_DIFF`. if the difference between 2 consecutive nums is greater than 
 #                           MAX_DIFF, setting this to `True` will repeat the last value. Setting it 
 #                           to `False` will ignore the the value.
 #   FRAME_STEP:         increase to skip every nth frame
